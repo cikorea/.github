@@ -67,6 +67,9 @@ php spark serve
 - 공식 사이트: https://codeigniter.com
 - 공식 문서: https://codeigniter.com/user_guide/
 - 커뮤니티 포럼: https://forum.codeigniter.com
+- CI4 한글 가이드 (CodeIgniter 4): https://cikorea.net/docs/ci4-guide-ko/Codeigniter4/index.html
+- CI4 한글 가이드 (CodeIgniter 3): https://cikorea.net/docs/ci4-guide-ko/Codeigniter3/index.html
+- CI4 플레이그라운드: https://playground.cikorea.net/
 
 ---
 
