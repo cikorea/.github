@@ -25,13 +25,27 @@
 
 ## 📦 주요 저장소
 
-| 저장소 | 설명 |
-| --- | --- |
-| [`ci4-starter`](#) | CI4 기반 프로젝트 시작 템플릿 |
-| [`ci4-docs-ko`](#) | CodeIgniter 4 한글 문서 |
-| [`ci4-recipes`](#) | 자주 쓰는 패턴·레시피 모음 |
+### CI4 Board — CodeIgniter 4 기반 게시판 프로젝트
 
-> 위 표는 실제 저장소 이름/링크에 맞게 수정하세요.
+tab bbs (배강민, 전상민 제작) 의 DB 스키마를 기반으로 Claude Code를 이용해 CI4로 재작성한 게시판 시스템입니다.
+API 서버, 사용자 프론트, 관리자 대시보드 총 3개의 저장소로 구성됩니다.
+
+| 저장소 | 역할 | 기술 스택 | 포트 |
+| --- | --- | --- | --- |
+| [`ci4-board`](https://github.com/cikorea/ci4-board) | REST API 서버 | PHP · CodeIgniter 4 · Swagger | :8080 |
+| [`ci4-board-web`](https://github.com/cikorea/ci4-board-web) | 사용자 프론트엔드 (SSR/ISR) | Next.js 16 · TypeScript · Tailwind CSS v4 | :3000 |
+| [`ci4-board-admin`](https://github.com/cikorea/ci4-board-admin) | 관리자 대시보드 (SPA) | React 18 · Vite · Ant Design 5 · TypeScript | :5173 |
+
+#### 개발 환경 빠른 시작
+
+```bash
+# 세 저장소를 나란히 클론 후 각각 실행
+cd ci4-board       && php spark serve    # API 서버 (:8080)
+cd ci4-board-admin && npm run dev        # 관리자 대시보드 (:5173)
+cd ci4-board-web   && npm run dev        # 사용자 프론트 (:3000)
+```
+
+> API 문서: 서버 실행 후 `http://localhost:8080/swagger` 접속
 
 ## 🚀 시작하기
 
