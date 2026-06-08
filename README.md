@@ -70,6 +70,7 @@ php spark serve
 - CI4 한글 가이드 (CodeIgniter 4): https://cikorea.net/docs/ci4-guide-ko/Codeigniter4/index.html
 - CI4 한글 가이드 (CodeIgniter 3): https://cikorea.net/docs/ci4-guide-ko/Codeigniter3/index.html
 - CI4 플레이그라운드: https://playground.cikorea.net/
+- CodeIgniter 한국 사용자 포럼: https://cikorea.net/
 
 ---
 
